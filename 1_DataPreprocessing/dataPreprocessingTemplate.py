@@ -12,7 +12,7 @@ y = dataset.iloc[:,3].values
 #splitting into training set and test set
 from sklearn.model_selection import train_test_split
 #random state is used to expect same results while learning, In a real case remove this
-xTrain, xTest, yTrain, yTest = train_test_split = train_test_split(x,y,test_size = 0.2, random_state = 0)
+xTrain, xTest, yTrain, yTest = train_test_split(x,y,test_size = 0.2, random_state = 0)
 
 #Feature Scaling - do if required
 #from sklearn.preprocessing import StandardScaler
